@@ -1,9 +1,10 @@
-/* @media(max-width:991px) {
+@media(max-width:991px) {
     .portfolio-section .portfolio-item, .service-section .service-item {
         flex: 0 0 50%;
         max-width: 50%;
     }
 }
+
 @media (max-width: 767px) {
     .contact-section .w-50, .contact-section .contact-item, .portfolio-popup .description, .portfolio-popup .info, .portfolio-section .portfolio-item, .service-section .service-item, .about-section .about-img, .about-section .about-info, .home-section .home-text, .about-section .skills .skill-item, .home-section .home-img {
         flex: 0 0 100%;
@@ -75,4 +76,68 @@
     .home-section .home-text h2 {
         font-size: 40px;
     }
-} */
+}
+
+@media (max-width: 300px) {
+    .home-section .home-img .img-box {
+        max-width: 200px;
+    }
+    .home-section .home-text h2 {
+        font-size: 25px;
+    }
+    .effect-2 {
+        display: none;
+    }
+    .home-section .full-screen {
+        padding: 50px 0;
+    }
+    .about-section .about-info {
+        text-align: center;
+    }
+    .about-section .about-info p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 15px;
+        color: var(--text-black-600);
+        text-align: center;
+    }
+    .about-section .about-info .btn-1 {
+        margin: 15px 0 0 0;
+    }
+    /* .about-section .timeline::before {
+        display: none;
+    } */
+    /* .about-section .timeline .timeline-item:nth-child(odd) .timeline-item-inner::before {
+       display: none;
+    }
+    .about-section .timeline .timeline-item:nth-child(even) .timeline-item-inner::before {
+        display: none;
+     }
+     .about-section .timeline .timeline-item:nth-child(even) .icon {
+        display: none;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) .icon {
+        display: none;
+    } */
+    .about-section .education, .about-section .experience {
+        padding: 0;
+    }
+    .about-section .timeline .timeline-item-inner {
+        padding: 15px;
+        border-radius: 5px;
+        position: relative;
+        width: 100%;
+    }
+    .about-section .timeline .timeline-item-inner p {
+        text-align: center;
+        font-size: 14px;
+    }
+    .about-section .timeline .timeline-item-inner h3{
+        text-align: center;
+        font-size: 17px;
+    }
+    .about-section .timeline .timeline-item-inner h4{
+        text-align: left;
+        font-size: 15px;
+    }
+}

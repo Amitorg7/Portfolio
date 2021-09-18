@@ -35,12 +35,12 @@
                 const hash = event.target.hash;
 
                 // deactiviting existing  active 'section' 
-                document.querySelector(".section.active").classList.add("hide");
-                document.querySelector(".section.active").classList.remove("active");
+                // document.querySelector(".section.active").classList.add("hide");
+                // document.querySelector(".section.active").classList.remove("active");
 
-                // activate new section 
-                document.querySelector(hash).classList.add("active");
-                document.querySelector(hash).classList.remove("hide");
+                // // activate new section 
+                // document.querySelector(hash).classList.add("active");
+                // document.querySelector(hash).classList.remove("hide");
 
                 // deactivate existing active navifation meny 'link-item'
                 navMenu.querySelector(".active").classList.add("outer-shadow", "hover-in-shadow");
