@@ -140,4 +140,24 @@
         text-align: left;
         font-size: 15px;
     }
+    .about-section .timeline .timeline-item:nth-child(even) {
+        padding-left: 56px;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) {
+        padding-left: 56px;
+    }
+    .about-section .timeline .timeline-item:nth-child(even) .icon {
+        left: -70px;
+    }
+    .about-section .timeline::before {
+        left: 21px;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) .icon {
+       
+        left: -55px;
+    }
+    .about-section .timeline .timeline-item:nth-child(even) .icon {
+       
+        left: -55px;
+    }
 }
