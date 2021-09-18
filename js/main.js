@@ -307,8 +307,8 @@ function bodyScrollingToggle() {
 
     sections.forEach((section) => {
         if (!section.classList.contains("active")) {
-            section.classList.add("active");
-            // section.classList.add("hide");
+            // section.classList.add("active");
+            section.classList.add("hide");
         }
 
     })
